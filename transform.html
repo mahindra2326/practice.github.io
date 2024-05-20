@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> 2D transforms </title>
+    <style>
+        div{
+            width: 200px;
+            height: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+        }
+        #translate:{
+            transform: 50px, 100px;
+        }
+        #rotate{
+            transform: rotate(-30deg);
+        }
+        #scale{
+            transform: scaleX(2)
+
+        }
+        #skewx{
+            transform: skewY(30deg);
+        }
+        #matrix{
+            transform:matrix(1,-0.3,0,2,0,0);
+        }
+    </style>
+</head>
+<body>
+    <h1> 2D transforms </h1>
+    <div id="translate">
+        translate box
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h3> rotate </h3>
+  <div id="rotate">
+    rotate box
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h3> scale </h3>
+  <div id="scale">
+    scale
+  </div>
+  <br>
+  <br>
+  <br>
+  <h3>
+    skewx & skewY
+  </h3>
+  <div id="skewx">
+     </div>
+     <br>
+     <br>
+     <br>
+     <br>
+     <h4> matrix </h4>
+     <div id="matrix ">
+
+     </div>
+</body>
+</html>
